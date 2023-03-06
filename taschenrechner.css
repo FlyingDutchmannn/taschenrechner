@@ -1,0 +1,95 @@
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    text-align: center;
+}
+
+.calculator {
+    display: inline-block;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.screen {
+    padding: 5px;
+    background-color: #f8f4f4;
+    margin-bottom: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+#input {
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: right;
+    font-size: 18px;
+
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    background-color: #5bc0de;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #91cfe1;
+    color: #fff;
+}
+
+.operator-button {
+    background-color: #b2b5b5;
+    padding: 5x;
+    
+}
+
+.operator-button:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.clear-button {
+    background-color: #d9534f;
+    width: 100%;
+    padding: 10 px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    color:#fff    
+}
+
+.clear-button:hover {
+    background-color: #c9302c;
+
+}
+
+.erase-button {
+    background-color: #d9534f;
+    width: 100%;
+    padding: 10 px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+.erase-button:hover {
+    background-color: #c9302c;
+    color:#000000
+}
+
+#root, #square {
+    width: 100%;
+    padding: 10 px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
